@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-config</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>SciJava Configuration</name>
 	<description>SciJava Coonfiguration is a shared collection of files for
