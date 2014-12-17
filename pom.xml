@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-config</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>SciJava Configuration</name>
 	<description>SciJava Coonfiguration is a shared collection of files for
@@ -116,7 +116,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/scijava-config</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-config</developerConnection>
-		<tag>HEAD</tag>
+		<tag>scijava-config-1.0.0</tag>
 		<url>https://github.com/scijava/scijava-config</url>
 	</scm>
 
