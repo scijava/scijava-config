@@ -31,12 +31,24 @@
   -->
 
 <configuration>
-<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
-<encoder>
-<pattern>%m%n</pattern>
-</encoder>
-</appender>
-<root level="INFO">
-<appender-ref ref="stdout"/>
-</root>
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+    <target>System.out</target>
+    <filter class="org.scijava.config.logback.StdOutFilter" />
+    <encoder>
+      <pattern>%m%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="stderr" class="ch.qos.logback.core.ConsoleAppender">
+    <target>System.err</target>
+    <filter class="org.scijava.config.logback.StdErrFilter" />
+    <encoder>
+      <pattern>[%level] %m%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="info">
+    <appender-ref ref="stdout" />
+    <appender-ref ref="stderr" />
+  </root>
 </configuration>
