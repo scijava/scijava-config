@@ -13,9 +13,7 @@
 	<version>1.0.1-SNAPSHOT</version>
 
 	<name>SciJava Configuration</name>
-	<description>SciJava Coonfiguration is a shared collection of files for
-	SciJava software. It provides configuration files for common SciJava
-	dependencies, such as logback and slf4j.</description>
+	<description>SciJava Configuration is a shared collection of files for SciJava software. It provides configuration files for common SciJava dependencies, such as logback and slf4j.</description>
 	<url>http://scijava.org/</url>
 	<inceptionYear>2014</inceptionYear>
 
