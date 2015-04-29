@@ -148,7 +148,7 @@
 
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>https://jenkins.imagej.net/job/SciJava-config/</url>
+		<url>http://jenkins.imagej.net/job/SciJava-config/</url>
 	</ciManagement>
 
 	<repositories>
