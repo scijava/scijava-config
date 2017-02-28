@@ -59,8 +59,8 @@
 		<url>https://github.com/scijava/scijava-config/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/SciJava-config/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/scijava/scijava-config</url>
 	</ciManagement>
 
 	<repositories>
