@@ -73,8 +73,8 @@
 		<url>https://github.com/scijava/scijava-config/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/scijava/scijava-config</url>
+		<system>GitHub Actions</system>
+		<url>https://github.com/scijava/scijava-config/actions</url>
 	</ciManagement>
 
 	<properties>
@@ -84,6 +84,9 @@
 Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
 Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<license.projectName>SciJava Configuration bundle for SciJava software.</license.projectName>
+
+		<!-- NB: Deploy releases to the SciJava Maven repository. -->
+		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 	</properties>
 
 	<repositories>
