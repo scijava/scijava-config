@@ -80,9 +80,7 @@
 	<properties>
 		<package-name>org.scijava.config</package-name>
 		<license.licenseName>bsd_2</license.licenseName>
-		<license.copyrightOwners>Board of Regents of the University of
-Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
-Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
+		<license.copyrightOwners>SciJava developers.</license.copyrightOwners>
 		<license.projectName>SciJava Configuration bundle for SciJava software.</license.projectName>
 
 		<reload4j.version>1.2.18.3</reload4j.version>
