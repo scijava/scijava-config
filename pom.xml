@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>scijava-config</artifactId>
-	<version>2.0.3-SNAPSHOT</version>
+	<version>2.0.3</version>
 
 	<name>SciJava Configuration</name>
 	<description>SciJava Configuration is a shared collection of files for SciJava software. It provides configuration files for common SciJava dependencies, such as logback and slf4j.</description>
@@ -65,7 +65,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/scijava/scijava-config</connection>
 		<developerConnection>scm:git:git@github.com:scijava/scijava-config</developerConnection>
-		<tag>HEAD</tag>
+		<tag>scijava-config-2.0.3</tag>
 		<url>https://github.com/scijava/scijava-config</url>
 	</scm>
 	<issueManagement>
