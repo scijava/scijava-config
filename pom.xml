@@ -82,8 +82,6 @@
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>SciJava developers.</license.copyrightOwners>
 		<license.projectName>SciJava Configuration bundle for SciJava software.</license.projectName>
-
-		<reload4j.version>1.2.18.3</reload4j.version>
 	</properties>
 
 	<repositories>
@@ -111,7 +109,6 @@
 		<dependency>
 			<groupId>ch.qos.reload4j</groupId>
 			<artifactId>reload4j</artifactId>
-			<version>${reload4j.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
