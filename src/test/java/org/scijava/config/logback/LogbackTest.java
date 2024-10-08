@@ -44,6 +44,8 @@ import org.slf4j.LoggerFactory;
  */
 public class LogbackTest extends AbstractLoggingTest {
 
+	private static final String NL = System.lineSeparator();
+
 	private Logger log;
 
 	@Before
@@ -56,7 +58,7 @@ public class LogbackTest extends AbstractLoggingTest {
 		final String error = "Guru Meditation";
 		log.error(error);
 		assertEquals("", stdout());
-		assertEquals("[ERROR] " + error + "\n", stderr());
+		assertEquals("[ERROR] " + error + NL, stderr());
 	}
 
 	@Test
@@ -64,14 +66,14 @@ public class LogbackTest extends AbstractLoggingTest {
 		final String warning = "Watch out for snakes!";
 		log.warn(warning);
 		assertEquals("", stdout());
-		assertEquals("[WARN] " + warning + "\n", stderr());
+		assertEquals("[WARN] " + warning + NL, stderr());
 	}
 
 	@Test
 	public void testInfo() {
 		final String info = "Dogs are bigger than cats. But not all the time.";
 		log.info(info);
-		assertEquals(info + "\n", stdout());
+		assertEquals(info + NL, stdout());
 		assertEquals("", stderr());
 	}
 
